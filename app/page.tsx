@@ -111,21 +111,15 @@ export default function Home() {
             display: "inline-block",
           }}
         >
-          <div
+          <Image
+            src="/max.jpg"
+            alt="MaxYu"
+            width={120}
+            height={120}
             className="avatar-glow"
-            style={{
-              width: 120,
-              height: 120,
-              borderRadius: "50%",
-              background: "linear-gradient(135deg, #00f5ff 0%, #bf00ff 50%, #ff006e 100%)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "3.2rem",
-            }}
-          >
-            🐟
-          </div>
+            style={{ borderRadius: "50%", objectFit: "cover", display: "block" }}
+            priority
+          />
         </div>
 
         <h1
