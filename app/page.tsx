@@ -157,10 +157,15 @@ export default function Home() {
             justifyContent: "center",
           }}
         >
-          <span className="social-link">
+          <a
+            href="https://www.xiaohongshu.com/user/profile/62844f010000000021027737"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+          >
             <span>📕</span>
             <span>小红书：@不讲理的鱼</span>
-          </span>
+          </a>
           <a href="mailto:dexter.yu2017@gmail.com" className="social-link">
             <span>✉️</span>
             <span>dexter.yu2017@gmail.com</span>
